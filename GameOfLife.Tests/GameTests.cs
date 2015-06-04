@@ -62,5 +62,46 @@ namespace GameOfLife.Tests
 
       Assert.That(nextGenGrid.LiveCells, Is.EqualTo(expected));
     }
+
+    [Test]
+    public void AnyCellWith3NeighboursShouldLive(){
+      var grid = new Grid(2,
+        new[]{
+          new Position(1,1),
+          new Position(1,2),
+          new Position(2,1),
+          new Position(2,2),
+        });
+
+      var nextGenGrid = grid.NextGeneration();
+      var expected = new[]{
+          new Position(1,1),
+          new Position(1,2),
+          new Position(2,1),
+          new Position(2,2),
+        };
+
+      Assert.That(nextGenGrid.LiveCells, Is.EqualTo(expected));
+    }
+
+    [Test]
+    public void GivenADeadCellWithThreeNeighboursItShouldLive(){
+      var grid = new Grid(3,
+        new[]{
+          new Position(2,1),
+          new Position(2,2),
+          new Position(2,3)
+        });
+
+      var nextGenGrid = grid.NextGeneration();
+      var expected = new[]{
+          new Position(1,2),
+          new Position(2,2),
+          new Position(3,2)
+        };
+
+      Assert.That(nextGenGrid.LiveCells, Is.EqualTo(expected));
+    }
+
   }
 }

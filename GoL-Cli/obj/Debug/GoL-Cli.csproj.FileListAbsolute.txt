@@ -1,0 +1,8 @@
+C:\workspace\Katas\GameOfLife\GoL-Cli\bin\Debug\GoL-Cli.exe.config
+C:\workspace\Katas\GameOfLife\GoL-Cli\bin\Debug\GoL-Cli.exe
+C:\workspace\Katas\GameOfLife\GoL-Cli\bin\Debug\GoL-Cli.pdb
+C:\workspace\Katas\GameOfLife\GoL-Cli\bin\Debug\GameOfLife.dll
+C:\workspace\Katas\GameOfLife\GoL-Cli\bin\Debug\GameOfLife.pdb
+C:\workspace\Katas\GameOfLife\GoL-Cli\obj\Debug\GoL-Cli.csprojResolveAssemblyReference.cache
+C:\workspace\Katas\GameOfLife\GoL-Cli\obj\Debug\GoL-Cli.exe
+C:\workspace\Katas\GameOfLife\GoL-Cli\obj\Debug\GoL-Cli.pdb

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Tests", "GameOfLife.Tests\GameOfLife.Tests.csproj", "{3A5926BE-F5DA-4C77-A4EE-A8D5B6C73B53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoL-Cli", "GoL-Cli\GoL-Cli.csproj", "{9C39F741-5E6F-4A1C-96EC-858A52AFE43B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{3A5926BE-F5DA-4C77-A4EE-A8D5B6C73B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A5926BE-F5DA-4C77-A4EE-A8D5B6C73B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A5926BE-F5DA-4C77-A4EE-A8D5B6C73B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C39F741-5E6F-4A1C-96EC-858A52AFE43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C39F741-5E6F-4A1C-96EC-858A52AFE43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C39F741-5E6F-4A1C-96EC-858A52AFE43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C39F741-5E6F-4A1C-96EC-858A52AFE43B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
